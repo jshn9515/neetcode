@@ -1,5 +1,6 @@
 import bisect
 
+
 class Solution:
     def search(self, nums: list[int], target: int) -> int:
         index = bisect.bisect_left(nums, target)
